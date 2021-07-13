@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="58" coreVersion="7.0" edition="vZome" field="rootTwo" version="7.0">
+  <EditHistory editNumber="206" lastStickyEdit="125">
+    <StrutCreation anchor="0 0 0 0 0 0" index="4" len="4 0" symm="octahedral"/>
+    <StrutCreation anchor="0 0 0 0 4 0" index="7" len="4 0" symm="octahedral"/>
+    <StrutCreation anchor="0 0 -4 0 4 0" index="12" len="4 0" symm="octahedral"/>
+    <StrutCreation anchor="-4 0 -4 0 4 0" index="5" len="4 0" symm="octahedral"/>
+    <StrutCreation anchor="-4 0 0 0 4 0" index="5" len="4 0" symm="octahedral"/>
+    <StrutCreation anchor="-4 0 4 0 4 0" index="0" len="4 0" symm="octahedral"/>
+    <StrutCreation anchor="0 0 4 0 4 0" index="0" len="4 0" symm="octahedral"/>
+    <StrutCreation anchor="4 0 4 0 4 0" index="7" len="4 0" symm="octahedral"/>
+    <StrutCreation anchor="4 0 0 0 4 0" index="7" len="4 0" symm="octahedral"/>
+    <StrutCreation anchor="4 0 -4 0 4 0" index="12" len="4 0" symm="octahedral"/>
+    <BeginBlock/>
+    <SelectManifestation point="4 0 4 0 4 0"/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 4 0"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <TranslationTool name="tool-0"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectAll/>
+    <SelectManifestation endSegment="0 0 -4 0 4 0" startSegment="0 0 0 0 4 0"/>
+    <SelectManifestation point="0 0 0 0 4 0"/>
+    <SelectManifestation endSegment="0 0 0 0 4 0" startSegment="0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool deleteInputs="true" name="tool-0"/>
+    <ApplyTool name="mirror.builtin/reflection through XY plane" selectInputs="true"/>
+    <ApplyTool name="axial symmetry.builtin/symmetry around green through origin" selectInputs="true"/>
+    <ApplyTool name="tetrahedral.builtin/tetrahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectAll/>
+    <EndBlock/>
+    <ApplyTool deleteInputs="true" name="scaling.builtin/scale up"/>
+    <ApplyTool deleteInputs="true" name="scaling.builtin/scale up"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectAll/>
+    <EndBlock/>
+    <ConvexHull3d mode="noPanels"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="8 0 0 0 8 0" startSegment="8 0 0 0 0 0"/>
+    <EndBlock/>
+    <ApplyTool name="octahedral.builtin/octahedral around origin" selectInputs="true"/>
+    <Midpoint/>
+    <setItemColor blue="153" green="204" red="255"/>
+    <BeginBlock/>
+    <SelectManifestation point="4 0 0 0 8 0"/>
+    <SelectManifestation point="0 0 4 0 8 0"/>
+    <SelectManifestation point="0 0 8 0 4 0"/>
+    <SelectManifestation point="4 0 8 0 0 0"/>
+    <SelectManifestation point="8 0 4 0 0 0"/>
+    <SelectManifestation point="8 0 0 0 4 0"/>
+    <EndBlock/>
+    <Polygon/>
+    <ApplyTool name="octahedral.builtin/octahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <SelectManifestation point="4 0 8 0 0 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <DeselectAll/>
+    <StrutCreation anchor="4 0 8 0 0 0" index="0" len="4 0" symm="octahedral"/>
+    <SelectManifestation endSegment="-8 0 8 0 0 0" startSegment="0 0 8 0 8 0"/>
+    <Midpoint/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <SelectManifestation point="-4 0 8 0 4 0"/>
+    <SelectManifestation point="-4 0 8 0 4 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-8 0 0 0 8 0"/>
+    <SelectManifestation point="-4 0 8 0 4 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <DeselectAll/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "rootTwo",
+  "vertices" : [ [ [ -8, -4, 1 ], [ -8, 0, 1 ], [ -8, -4, 1 ] ], [ [ -8, -4, 1 ], [ -8, 0, 1 ], [ 0, -4, 1 ] ], [ [ -8, -4, 1 ], [ 0, 0, 1 ], [ -8, -4, 1 ] ], [ [ -8, -4, 1 ], [ 0, 0, 1 ], [ 0, -4, 1 ] ], [ [ -8, 0, 1 ], [ -8, -4, 1 ], [ -8, -4, 1 ] ], [ [ -8, 0, 1 ], [ -8, -4, 1 ], [ 0, -4, 1 ] ], [ [ -8, 0, 1 ], [ -8, 0, 1 ], [ -8, -8, 1 ] ], [ [ -8, 0, 1 ], [ -8, 0, 1 ], [ 0, 0, 1 ] ], [ [ -8, 0, 1 ], [ 0, 0, 1 ], [ -8, -8, 1 ] ], [ [ -8, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ -8, 0, 1 ], [ 0, 4, 1 ], [ -8, -4, 1 ] ], [ [ -8, 0, 1 ], [ 0, 4, 1 ], [ 0, -4, 1 ] ], [ [ -4, 0, 1 ], [ -4, 0, 1 ], [ -4, -4, 1 ] ], [ [ 0, 0, 1 ], [ -8, -4, 1 ], [ -8, -4, 1 ] ], [ [ 0, 0, 1 ], [ -8, -4, 1 ], [ 0, -4, 1 ] ], [ [ 0, 0, 1 ], [ -8, 0, 1 ], [ -8, -8, 1 ] ], [ [ 0, 0, 1 ], [ -8, 0, 1 ], [ 0, 0, 1 ] ], [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ -8, -8, 1 ] ], [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 0, 0, 1 ], [ 0, 4, 1 ], [ -8, -4, 1 ] ], [ [ 0, 0, 1 ], [ 0, 4, 1 ], [ 0, -4, 1 ] ], [ [ 0, 4, 1 ], [ -8, 0, 1 ], [ -8, -4, 1 ] ], [ [ 0, 4, 1 ], [ -8, 0, 1 ], [ 0, -4, 1 ] ], [ [ 0, 4, 1 ], [ 0, 0, 1 ], [ -8, -4, 1 ] ], [ [ 0, 4, 1 ], [ 0, 0, 1 ], [ 0, -4, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 12,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 24,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 22,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 14,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 5,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 3,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 11,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 20,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 4,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 2,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 6,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 9,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 10,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 7,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 8,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 23,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 21,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 17,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 13,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 16,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 19,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 15,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 18,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 22, 24 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 14, 22 ],
+    "color" : "#008D36"
+  }, {
+    "vertices" : [ 5, 14 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 3, 1 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 11, 3 ],
+    "color" : "#008D36"
+  }, {
+    "vertices" : [ 20, 11 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 20, 24 ],
+    "color" : "#008D36"
+  }, {
+    "vertices" : [ 1, 0 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 5, 4 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 1, 5 ],
+    "color" : "#008D36"
+  }, {
+    "vertices" : [ 0, 4 ],
+    "color" : "#008D36"
+  }, {
+    "vertices" : [ 2, 10 ],
+    "color" : "#008D36"
+  }, {
+    "vertices" : [ 8, 2 ],
+    "color" : "#008D36"
+  }, {
+    "vertices" : [ 7, 1 ],
+    "color" : "#008D36"
+  }, {
+    "vertices" : [ 13, 15 ],
+    "color" : "#008D36"
+  }, {
+    "vertices" : [ 20, 18 ],
+    "color" : "#008D36"
+  }, {
+    "vertices" : [ 21, 13 ],
+    "color" : "#008D36"
+  }, {
+    "vertices" : [ 15, 21 ],
+    "color" : "#008D36"
+  }, {
+    "vertices" : [ 18, 24 ],
+    "color" : "#008D36"
+  }, {
+    "vertices" : [ 10, 8 ],
+    "color" : "#008D36"
+  }, {
+    "vertices" : [ 5, 7 ],
+    "color" : "#008D36"
+  }, {
+    "vertices" : [ 2, 3 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 8, 6 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 7, 9 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 13, 4 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 24, 23 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 21, 22 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 15, 17 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 18, 16 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 10, 19 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 10, 11 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 2, 0 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 15, 6 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 18, 9 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 20, 19 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 13, 14 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 21, 23 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 8, 17 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 7, 16 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 6, 0 ],
+    "color" : "#008D36"
+  }, {
+    "vertices" : [ 9, 3 ],
+    "color" : "#008D36"
+  }, {
+    "vertices" : [ 4, 6 ],
+    "color" : "#008D36"
+  }, {
+    "vertices" : [ 11, 9 ],
+    "color" : "#008D36"
+  }, {
+    "vertices" : [ 23, 19 ],
+    "color" : "#008D36"
+  }, {
+    "vertices" : [ 17, 23 ],
+    "color" : "#008D36"
+  }, {
+    "vertices" : [ 16, 22 ],
+    "color" : "#008D36"
+  }, {
+    "vertices" : [ 19, 17 ],
+    "color" : "#008D36"
+  }, {
+    "vertices" : [ 14, 16 ],
+    "color" : "#008D36"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <ApplyTool deleteInputs="true" name="tool-0"/>
+    <ApplyTool deleteInputs="true" name="tool-0"/>
+    <ApplyTool deleteInputs="true" name="tool-0"/>
+    <Branch>
+      <DeselectAll/>
+      <ShowPoint point="0 0 0 0 0 0"/>
+      <BeginBlock/>
+      <SelectManifestation point="0 0 0 0 0 0"/>
+      <SelectManifestation point="-4 0 -4 0 -16 -4"/>
+      <DeselectAll/>
+      <SelectManifestation point="-4 0 -4 0 -16 -4"/>
+      <SelectManifestation point="0 0 0 0 0 0"/>
+      <EndBlock/>
+      <TranslationTool name="tool-1"/>
+    </Branch>
+    <BookmarkTool name="tool-2"/>
+    <DeselectAll/>
+    <ShowPoint point="0 0 0 0 0 0"/>
+    <ApplyTool name="tool-2" selectInputs="true"/>
+    <ApplyTool deleteInputs="true" name="tool-1"/>
+    <ApplyTool deleteInputs="true" name="scaling.builtin/scale up"/>
+    <ApplyTool deleteInputs="true" name="scaling.builtin/scale up"/>
+    <ApplyTool deleteInputs="true" name="scaling.builtin/scale up"/>
+    <GroupSelection/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 -8 16 8 0 8" startSegment="0 8 16 8 0 8"/>
+    <EndBlock/>
+    <ApplyTool deleteInputs="true" name="scaling.builtin/scale up"/>
+    <BookmarkTool name="tool-3"/>
+    <DeselectAll/>
+    <StrutCreation anchor="-4 0 8 0 4 0" dir="brown" index="1" len="4 0" symm="octahedral"/>
+    <StrutCreation anchor="0 0 16 0 0 0" dir="brown" index="1" len="4 0" symm="octahedral"/>
+    <StrutCreation anchor="4 0 24 0 -4 0" dir="brown" index="1" len="4 0" symm="octahedral"/>
+    <StrutCreation anchor="8 0 32 0 -8 0" dir="brown" index="1" len="4 0" symm="octahedral"/>
+    <StrutCreation anchor="12 0 40 0 -12 0" dir="brown" index="1" len="4 0" symm="octahedral"/>
+    <StrutCreation anchor="16 0 48 0 -16 0" dir="brown" index="1" len="4 0" symm="octahedral"/>
+    <StrutCreation anchor="20 0 56 0 -20 0" dir="brown" index="1" len="4 0" symm="octahedral"/>
+    <StrutCreation anchor="24 0 64 0 -24 0" dir="brown" index="1" len="4 0" symm="octahedral"/>
+    <StrutCreation anchor="28 0 72 0 -28 0" dir="brown" index="1" len="4 0" symm="octahedral"/>
+    <ApplyTool name="tool-3" selectInputs="true"/>
+    <ApplyTool deleteInputs="true" name="scaling.builtin/scale down"/>
+    <ApplyTool deleteInputs="true" name="scaling.builtin/scale up"/>
+    <ApplyTool deleteInputs="true" name="scaling.builtin/scale up"/>
+    <ApplyTool deleteInputs="true" name="scaling.builtin/scale up"/>
+    <BookmarkTool name="tool-4"/>
+    <DeselectAll/>
+    <StrutCreation anchor="32 0 80 0 -32 0" dir="brown" index="1" len="4 0" symm="octahedral"/>
+    <StrutCreation anchor="36 0 88 0 -36 0" dir="brown" index="1" len="4 0" symm="octahedral"/>
+    <ApplyTool name="tool-4" selectInputs="true"/>
+    <StrutCreation anchor="40 0 96 0 -40 0" dir="brown" index="1" len="4 0" symm="octahedral"/>
+    <StrutCreation anchor="44 0 104 0 -44 0" dir="brown" index="1" len="4 0" symm="octahedral"/>
+    <StrutCreation anchor="48 0 112 0 -48 0" dir="brown" index="1" len="4 0" symm="octahedral"/>
+    <ApplyTool deleteInputs="true" name="scaling.builtin/scale up"/>
+    <BookmarkTool name="tool-5"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 32 64 32 0 -32" startSegment="0 32 64 32 0 32"/>
+    <DeselectAll/>
+    <EndBlock/>
+    <ApplyTool name="tool-5" selectInputs="true"/>
+    <ApplyTool deleteInputs="true" name="scaling.builtin/scale down"/>
+    <ApplyTool name="tool-5" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="32 0 32 32 -32 0"/>
+    <SelectManifestation point="0 32 64 32 0 -32"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <SelectManifestation endSegment="36 0 88 0 -36 0" startSegment="32 0 80 0 -32 0"/>
+    <StrutIntersection/>
+    <setItemColor blue="0" green="0" red="255"/>
+    <ApplyTool name="tool-5" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="16 16 48 32 -16 -16"/>
+    <EndBlock/>
+    <ApplyTool name="octahedral.builtin/octahedral around origin" selectInputs="true"/>
+    <ConvexHull3d mode="noPanels"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="0 0 -8 0 0 0" startSegment="0 0 -8 0 8 0"/>
+    <EndBlock/>
+    <ShowVertices/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 -8 0 0 0"/>
+    <SelectManifestation endSegment="0 0 -8 0 0 0" startSegment="8 0 -8 0 0 0"/>
+    <EndBlock/>
+    <StrutCreation anchor="0 0 -8 0 0 0" index="12" len="8 0" symm="octahedral"/>
+    <SelectManifestation endSegment="0 0 -8 0 -8 0" startSegment="8 0 -8 0 0 0"/>
+    <ShowVertices/>
+    <SelectManifestation endSegment="0 0 8 0 -8 0" startSegment="0 0 0 0 -8 0"/>
+    <ShowVertices/>
+    <StrutCreation anchor="0 0 0 0 -8 0" index="7" len="8 0" symm="octahedral"/>
+    <StrutCreation anchor="0 0 0 0 -8 0" index="12" len="8 0" symm="octahedral"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="8 0 8 0 0 0" startSegment="0 0 8 0 8 0"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="8 0 8 0 0 0" startSegment="0 0 8 0 8 0"/>
+    <EndBlock/>
+    <Midpoint/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="8 0 0 0 8 0"/>
+    <SelectManifestation point="4 0 8 0 4 0"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="4 0 8 0 4 0"/>
+    <SelectManifestation point="-16 -16 48 32 -16 -16"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="-16 -16 48 32 -16 -16" startSegment="4 0 8 0 4 0"/>
+    <SelectManifestation endSegment="4 0 8 0 4 0" startSegment="8 0 0 0 8 0"/>
+    <SelectManifestation endSegment="-8 0 8 0 0 0" startSegment="-8 0 0 0 0 0"/>
+    <EndBlock/>
+    <Midpoint/>
+    <ShowVertices/>
+    <SelectManifestation endSegment="-8 0 8 0 0 0" startSegment="-8 0 0 0 0 0"/>
+    <ShowVertices/>
+    <StrutCreation anchor="-8 0 0 0 0 0" index="7" len="8 0" symm="octahedral"/>
+    <BeginBlock/>
+    <SelectManifestation point="-6 -8 28 16 -6 -8"/>
+    <DeselectAll/>
+    <SelectManifestation point="-6 -8 28 16 -6 -8"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 8 0 8 0"/>
+    <SelectManifestation point="48 32 -16 -16 -16 -16"/>
+    <EndBlock/>
+    <JoinPoints closedLoop="false"/>
+    <DeselectAll/>
+  </EditHistory>
+  <notes/>
+  <sceneModel ambientLight="41,41,41" background="175,200,220">
+    <directionalLight color="235,235,228" x="1.0" y="-1.0" z="-1.0"/>
+    <directionalLight color="228,228,235" x="-1.0" y="0.0" z="0.0"/>
+    <directionalLight color="30,30,30" x="0.0" y="0.0" z="-1.0"/>
+  </sceneModel>
+  <Viewing>
+    <ViewModel distance="1106.4139404296875" far="2212.82373046875" near="2.766033411026001" parallel="false" stereoAngle="0.0" width="497.8868713378906">
+      <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+      <UpDirection x="-0.7108986377716064" y="0.6638678312301636" z="-0.2320675253868103"/>
+      <LookDirection x="-0.3706081211566925" y="-0.07320836931467056" z="0.9259097576141357"/>
+    </ViewModel>
+  </Viewing>
+  <SymmetrySystem name="octahedral" renderingStyle="ornate">
+    <Direction color="0,118,149" name="blue"/>
+    <Direction color="255,255,255" name="12071" prototype="0 1/2 0 1 0 0"/>
+    <Direction color="0,141,54" name="green"/>
+    <Direction color="255,255,255" name="12073" prototype="2 -1 0 1 -2 1"/>
+    <Direction color="107,53,26" name="brown"/>
+    <Direction color="240,160,0" name="yellow"/>
+  </SymmetrySystem>
+  <OtherSymmetries>
+    <SymmetrySystem name="synestructics" renderingStyle="small octahedra">
+      <Direction color="240,160,0" name="yellow"/>
+      <Direction color="220,76,0" name="orange"/>
+      <Direction color="255,41,183" name="magenta"/>
+      <Direction color="107,53,26" name="brown"/>
+    </SymmetrySystem>
+  </OtherSymmetries>
+  <Tools>
+    <Tool deleteInputs="true" id="tool-0" label="translation 0"/>
+    <Tool deleteInputs="true" id="tool-1" label="translation 1"/>
+    <Tool id="tool-2" label="bookmark 2" selectInputs="true"/>
+    <Tool id="tool-3" label="bookmark 3" selectInputs="true"/>
+    <Tool id="tool-4" label="bookmark 4" selectInputs="true"/>
+    <Tool id="tool-5" label="bookmark 5" selectInputs="true"/>
+  </Tools>
+</vzome:vZome>
